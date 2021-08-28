@@ -1,4 +1,4 @@
-# [generate-random-id]()
+# [generate-random-id](https://www.npmjs.com/package/generate-random-id)
 
 A random ID generator function.
 
