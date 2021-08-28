@@ -20,4 +20,4 @@ function generateRandomId(options = {}) {
   return autoId;
 }
 
-export default generateRandomId;
+exports.default = generateRandomId;
