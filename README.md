@@ -1,11 +1,11 @@
-# [get-random-id]()
+# [generate-random-id]()
 
 A random ID generator function.
 
 ## Usage
 
 ```javascript
-import getRandomId from "get-random-id";
+import generateRandomId from "generate-random-id";
 
 const options = {
   length: 12,
@@ -14,7 +14,7 @@ const options = {
 
 const user = {
   name: "John Doe",
-  userId: getRandomId(options),
+  userId: generateRandomId(options),
   isActive: true
 }
 
@@ -24,7 +24,7 @@ DatabaseService.saveUser(user);
 
 ## Params
 
-`getRandomId` accepts one param `options` an object with all the configurable options.
+`generateRandomId` accepts one param `options` an object with all the configurable options.
 
 ### options
 

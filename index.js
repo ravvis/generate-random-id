@@ -6,7 +6,7 @@ const DEFAULT_CHARS_SET = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0
  * @param {number} options.length The length of the ID, default is 7
  * @param {string} options.set A set to choose ID characters from
  * */
-function getRandomId(options = {}) {
+function generateRandomId(options = {}) {
   if(typeof options !== "object"){
     throw Error("Options should be an array of available options, mentioned in the doc");
   }
@@ -20,4 +20,4 @@ function getRandomId(options = {}) {
   return autoId;
 }
 
-export default getRandomId;
+export default generateRandomId;

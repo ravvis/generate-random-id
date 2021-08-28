@@ -1,5 +1,5 @@
 {
-  "name": "get-random-id",
+  "name": "generate-random-id",
   "version": "0.0.1",
   "description": "A random id generator function",
   "main": "index.js",
@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "jsdoc": "^3.6.7"
-  }
+  },
+  "repository": "https://github.com/ravvis/generate-random-id",
+  "homepage": "https://github.com/ravvis/generate-random-id/blob/main/README.md",
+  "keywords": ["random-id", "nodejs", "random-number"]
 }
